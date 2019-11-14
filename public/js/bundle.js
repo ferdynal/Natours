@@ -6607,10 +6607,10 @@ exports.displayMap = void 0;
 
 /* eslint-disable */
 var displayMap = function displayMap(locations) {
-  mapboxgl.accessToken = 'pk.eyJ1Ijoiam9uYXNzY2htZWR0bWFubiIsImEiOiJjam54ZmM5N3gwNjAzM3dtZDNxYTVlMnd2In0.ytpI7V7w7cyT1Kq5rT9Z1A';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZmVyZHluYWwiLCJhIjoiY2syZXdnMThlMGN6bTNucGJoNGZldzd4OSJ9.7tJtClD-wXV6tMbB23-skQ';
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/jonasschmedtmann/cjvi9q8jd04mi1cpgmg7ev3dy',
+    style: 'mapbox://styles/ferdynal/ck2ewsd5k0vz21dqr3n4hub34',
     scrollZoom: false // center: [-118.113491, 34.111745],
     // zoom: 10,
     // interactive: false
@@ -8818,7 +8818,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51198" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50882" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
